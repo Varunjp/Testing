@@ -1,1 +1,1 @@
-db.person.find({name:'Jack'})
+db.person.find({name:'Jack',age:{$lt:25}})
